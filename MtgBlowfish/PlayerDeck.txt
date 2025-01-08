@@ -1,0 +1,26 @@
+﻿Deck
+1 Of One Mind
+4 Mutagenic Growth
+4 Snap
+4 Faerie Seer
+4 Faerie Miscreant
+3 Of One Mind
+4 Brinebarrow Intruder
+18 Island
+1 Spell Pierce
+4 Moon-Circuit Hacker
+1 Spell Pierce
+2 Spellstutter Sprite
+2 Spellstutter Sprite
+4 Counterspell
+4 Ninja of the Deep Hours
+
+Sideboard
+1 Relic of Progenitus
+2 Blue Elemental Blast
+3 Annul
+4 Hydroblast
+1 Relic of Progenitus
+2 Steel Sabotage
+1 Relic of Progenitus
+1 Steel Sabotage
