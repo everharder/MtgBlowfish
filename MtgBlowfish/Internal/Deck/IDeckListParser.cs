@@ -1,6 +1,6 @@
 ﻿using MtgBlowfish.Internal.Models;
 
-namespace MtgBlowfish.Internal.Services.Deck;
+namespace MtgBlowfish.Internal.Deck;
 
 /// <summary>
 /// Service for parsing decklists

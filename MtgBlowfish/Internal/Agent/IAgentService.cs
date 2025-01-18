@@ -1,4 +1,4 @@
-﻿namespace MtgBlowfish.Internal.Services.Agent;
+﻿namespace MtgBlowfish.Internal.Agent;
 
 /// <summary>
 /// Service that is accessible by an AI agent

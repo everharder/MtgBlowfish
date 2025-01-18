@@ -1,6 +1,6 @@
 ﻿using MtgBlowfish.Internal.Models;
 
-namespace MtgBlowfish.Internal.Services.Oracle;
+namespace MtgBlowfish.Internal.Oracle;
 
 /// <summary>
 /// Service for accessing card info 

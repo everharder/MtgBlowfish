@@ -1,7 +1,6 @@
 ﻿using Scryfall.API;
-using Scryfall.API.Models;
 
-namespace MtgBlowfish.Internal.Services.Oracle;
+namespace MtgBlowfish.Internal.Oracle;
 
 /// <inheritdoc />
 internal class OracleService : IOracleService

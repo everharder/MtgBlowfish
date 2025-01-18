@@ -1,8 +1,8 @@
 ﻿using System.Text.Json;
 using MtgBlowfish.Internal.Models;
-using MtgBlowfish.Internal.Services.Oracle;
+using MtgBlowfish.Internal.Oracle;
 
-namespace MtgBlowfish.Internal.Services.Agent;
+namespace MtgBlowfish.Internal.Agent;
 
 /// <inheritdoc />
 internal class AgentService : IAgentService
@@ -18,5 +18,15 @@ internal class AgentService : IAgentService
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
             WriteIndented = false
         });
+    }
+
+    public Task SetLifeTotal(string playerName, int lifeTotal)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task DrawCards(string playerName, int numberOfCards)
+    {
+        throw new NotImplementedException();
     }
 }

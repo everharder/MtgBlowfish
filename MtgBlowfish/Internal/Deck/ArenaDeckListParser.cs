@@ -1,7 +1,7 @@
 ﻿using MtgBlowfish.Internal.Models;
-using MtgBlowfish.Internal.Services.Oracle;
+using MtgBlowfish.Internal.Oracle;
 
-namespace MtgBlowfish.Internal.Services.Deck;
+namespace MtgBlowfish.Internal.Deck;
 
 /// <summary>
 /// Parses a MTG arena decklist
@@ -42,6 +42,9 @@ internal class ArenaDeckListParser : IDeckListParser
             var card = await Oracle.GetCardAsync(name, cancellationToken);
             // add card N times
             cards.AddRange(Enumerable.Range(0, quantity).Select(_ => card));
+            
+            // don't spam the oracle
+            await Task.Delay(TimeSpan.FromMilliseconds(50), cancellationToken);
         }
         return cards;
     }
